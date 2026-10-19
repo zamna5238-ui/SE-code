@@ -1,0 +1,292 @@
+{
+ "requirements": [
+  {
+   "Id": "R1",
+   "Requirement": "There should be an application that provides functionality for mobile users to propose and schedule meetings."
+  },
+  {
+   "Id": "R10",
+   "Requirement": "The WASP platform must provide services that may be used by WASP applications in order to personalize content for a specific end-user based on his or her user profile."
+  },
+  {
+   "Id": "R11",
+   "Requirement": "The WASP platform should provide services that may be used by WASP applications in order to personalize content for a group of end-users based on their user profiles."
+  },
+  {
+   "Id": "R12",
+   "Requirement": "The WASP platform must provide services that may be used by a WASP application to charge the user for using one of his services."
+  },
+  {
+   "Id": "R13",
+   "Requirement": "The WASP platform must allow end-users to provide profile and context information explicitly to applications or the platform."
+  },
+  {
+   "Id": "R14",
+   "Requirement": "A user's profile must contain at least one charging point for a specific user."
+  },
+  {
+   "Id": "R15",
+   "Requirement": "A WASP application must be authorized by the end-user before charging his account."
+  },
+  {
+   "Id": "R16",
+   "Requirement": "The WASP platform shall provide functionality to find points of interest that match the user's explicit need and obey the restrictions following from the user's profile and current context."
+  },
+  {
+   "Id": "R17",
+   "Requirement": "The WASP platform must allow end-users to place triggers to be alerted automatically for a certain type of point of interests, based on his/her context."
+  },
+  {
+   "Id": "R18",
+   "Requirement": "The WASP platform must allow end-users to place triggers in the platform to be alerted automatically for a certain type of services and events, based on his/her context."
+  },
+  {
+   "Id": "R19",
+   "Requirement": "The WASP platform shall provide functionality to search for other people registered in the platform."
+  },
+  {
+   "Id": "R2",
+   "Requirement": "The WASP platform shall provide functionality to find services that match the user's explicit need and obey the restrictions following from the user's profile and current context. For the found services the WASP platform shall provide (links to) the service profiles."
+  },
+  {
+   "Id": "R20",
+   "Requirement": "The WASP platform shall allow end-users to maintain a buddy list."
+  },
+  {
+   "Id": "R21",
+   "Requirement": "The WASP platform shall provide functionality for end-users to communicate with their buddies."
+  },
+  {
+   "Id": "R22",
+   "Requirement": "The WASP platform should be able to use several communication services offered by the 3G platform."
+  },
+  {
+   "Id": "R23",
+   "Requirement": "The WASP platform shall be able to update status and location information of buddies in the user's buddy list based either on request of the user, after login into the WASP platform and at a regular interval."
+  },
+  {
+   "Id": "R24",
+   "Requirement": "The WASP platform must allow end-users to set alerts in the platform on changes in the status and/or location of his buddies."
+  },
+  {
+   "Id": "R25",
+   "Requirement": "When changes are discovered in the status and/or location of a user's buddy, the WASP platform must sent out notifications according to the alerts set by the user (see also REQ_NOT_006)."
+  },
+  {
+   "Id": "R26",
+   "Requirement": "A WASP application shall be able to setup a phone call connection using the 3G Platform via the WASP platform."
+  },
+  {
+   "Id": "R27",
+   "Requirement": "The WASP platform shall allow status information to be stored, updated, retrieved and deleted in the user's profile in the WASP platform if the user allows this."
+  },
+  {
+   "Id": "R28",
+   "Requirement": "The WASP platform shall allow end-users to give and remove Create, Read, Update, Delete (CRUD) access rights on parts of the user profile to other users, specific WASP applications and the 3G Platform."
+  },
+  {
+   "Id": "R29",
+   "Requirement": "The WASP platform shall allow other users, WASP applications and/or the 3G Platform to ask the end- user for access rights on parts of the user profile."
+  },
+  {
+   "Id": "R3",
+   "Requirement": "The WASP platform must be able to collect profile and context information on the user from multiple sources."
+  },
+  {
+   "Id": "R30",
+   "Requirement": "The WASP platform should allow end-users to delegate and remove the rights to give access (see REQ_USR_001) to parts of the user profile to other users."
+  },
+  {
+   "Id": "R31",
+   "Requirement": "The WASP platform shall provide functionality to retrieve the current location of the user."
+  },
+  {
+   "Id": "R32",
+   "Requirement": "The WASP platform must be able to retrieve status information from the 3G Platform."
+  },
+  {
+   "Id": "R33",
+   "Requirement": "The WASP platform must be able to retrieve location information from the 3G Platform."
+  },
+  {
+   "Id": "R34",
+   "Requirement": "A restaurant application may provide a table reservation service."
+  },
+  {
+   "Id": "R35",
+   "Requirement": "A restaurant application may provide a service that allows users to send out invitations to other dinner guests after a table has been reserved."
+  },
+  {
+   "Id": "R36",
+   "Requirement": "It must be possible for a WASP application to send out messages to users using the WASP platform."
+  },
+  {
+   "Id": "R37",
+   "Requirement": "A restaurant application may provide a service that allows users to see photographs of the interior of the restaurant."
+  },
+  {
+   "Id": "R38",
+   "Requirement": "A WASP application should be able to automatically adapt content and the presentation of functionality to the user's device, for which the WASP platform may offer some generic adaptation services."
+  },
+  {
+   "Id": "R39",
+   "Requirement": "A restaurant application should allow end-users to give feedback on items from a menu."
+  },
+  {
+   "Id": "R4",
+   "Requirement": "The WASP platform must be able to combine knowledge about the end-user (in terms of profile and context) and a specific information request into a search query on the service registry."
+  },
+  {
+   "Id": "R40",
+   "Requirement": "A restaurant application should be able to learn from feedback provided by the user and store the newly learn tastes and preferences of the user in the user's profile."
+  },
+  {
+   "Id": "R41",
+   "Requirement": "The WASP platform must be able to draw a map of a given area."
+  },
+  {
+   "Id": "R42",
+   "Requirement": "The WASP platform must be able to show the location of users on a map."
+  },
+  {
+   "Id": "R43",
+   "Requirement": "The WASP platform must be able to show the location of various points of interests on a map."
+  },
+  {
+   "Id": "R44",
+   "Requirement": "The WASP platform shall be able to obtain the geographic location of points of interests."
+  },
+  {
+   "Id": "R45",
+   "Requirement": "The WASP platform must be able to display a route connecting two or more points on a map."
+  },
+  {
+   "Id": "R46",
+   "Requirement": "The WASP platform should be able to provide the end-user with walking or driving instructions."
+  },
+  {
+   "Id": "R47",
+   "Requirement": "The WASP platform must be able to render all maps on small, mobile devices, as well as large, fixed terminals."
+  },
+  {
+   "Id": "R48",
+   "Requirement": "The platform must be able to access points of interests and services from a map."
+  },
+  {
+   "Id": "R49",
+   "Requirement": "The WASP platform should be able to calculate a route between two or more arbitrarily chosen points, avoiding traffic jams or construction works."
+  },
+  {
+   "Id": "R5",
+   "Requirement": "The tourist application must support invocation of user-selected services based on the service profile."
+  },
+  {
+   "Id": "R50",
+   "Requirement": "The WASP platform should have access to information about traffic jams and construction works, as well as suggested alternative routes."
+  },
+  {
+   "Id": "R51",
+   "Requirement": "The WASP platform should be possible to determine the location of touristic attractions close to a calculated route."
+  },
+  {
+   "Id": "R52",
+   "Requirement": "The WASP platform should be able to determine whether a traffic jam lies on a suggested route."
+  },
+  {
+   "Id": "R53",
+   "Requirement": "The WASP platform must allow end-users to set an alert on an event."
+  },
+  {
+   "Id": "R54",
+   "Requirement": "The WASP platform should allow the end-user to specify the notification type when setting an alert."
+  },
+  {
+   "Id": "R55",
+   "Requirement": "The WASP platform must maintain a list of events the end-user can be notified about."
+  },
+  {
+   "Id": "R56",
+   "Requirement": "The WASP platform must allow the end-user to remove previously set alerts on events."
+  },
+  {
+   "Id": "R57",
+   "Requirement": "The WASP platform must notify the end-user about the occurrence of an event for which an alert was set, as soon as the event occurs."
+  },
+  {
+   "Id": "R58",
+   "Requirement": "The WASP platform should be able to decide how to notify the user of an alert for which an event was set."
+  },
+  {
+   "Id": "R59",
+   "Requirement": "The WASP platform must actively monitor all events."
+  },
+  {
+   "Id": "R6",
+   "Requirement": "The tourist application shall be able to represent the results from a registry search or service interaction in an orderly manner."
+  },
+  {
+   "Id": "R60",
+   "Requirement": "If the user cannot be notified of the event the first time, the WASP platform should retry to notify the user of the occurrence of the event, until the user has been notified or a specified time-out elapses."
+  },
+  {
+   "Id": "R61",
+   "Requirement": "There must not be any application data on the end-user's device. Only terminal capabilities may be terminal dependent and those capabilities may be stored on the end-user's device."
+  },
+  {
+   "Id": "R62",
+   "Requirement": "The WASP platform must maintain authentication credentials per user."
+  },
+  {
+   "Id": "R63",
+   "Requirement": "The WASP platform should be able to request the user's ID from the 3G platform."
+  },
+  {
+   "Id": "R64",
+   "Requirement": "The WASP platform should have a (limited) number of classification schemes for POIs and services."
+  },
+  {
+   "Id": "R65",
+   "Requirement": "The WASP platform must have a (web-based) form to specify simple POI and service profiles."
+  },
+  {
+   "Id": "R66",
+   "Requirement": "The WASP platform should offer a tool that helps the 3rd party service provider to specify more complex profiles."
+  },
+  {
+   "Id": "R67",
+   "Requirement": "The platform must be able to store POI and service profiles."
+  },
+  {
+   "Id": "R68",
+   "Requirement": "The WASP platform must allow for users to have different roles."
+  },
+  {
+   "Id": "R69",
+   "Requirement": "Profiles must have associated expiry dates. The registry must check for their existence and should enforce them. The registry may supply a default expiry date if none was specified."
+  },
+  {
+   "Id": "R7",
+   "Requirement": "A museum application may offer a personalized catalogue service."
+  },
+  {
+   "Id": "R70",
+   "Requirement": "Services must have associated schedule information (this service is available weekdays from 8:00 till 16:00), a service may be available 24/7. The registry must check for their existence, it may supply a default schedule if none was specified."
+  },
+  {
+   "Id": "R71",
+   "Requirement": "The WASP platform shall follow international standards as much as possible for web service description, invocation, and registries as well as for the profiles of users, points of interests and services, and internal standards should be developed such that they are flexible and easily extensible."
+  },
+  {
+   "Id": "R72",
+   "Requirement": "The WASP platform shall handle all requests in a best-effort manner."
+  },
+  {
+   "Id": "R8",
+   "Requirement": "A museum application may offer a tour reservation service."
+  },
+  {
+   "Id": "R9",
+   "Requirement": "A museum application may offer a translated guide service."
+  }
+ ]
+}

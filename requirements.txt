@@ -1,0 +1,6 @@
+scikit-learn
+scipy
+numpy
+matplotlib
+google-genai
+sentence-transformers

@@ -1,0 +1,91 @@
+[
+ {
+  "Id": "C1",
+  "Change Rational": "A WASP application shall be able to setup a phone call connection and a video chat connection using the 3G Platform via the WASP platform. Add video call and chat functionality.",
+  "target_requirement": "R26",
+  "old_text": "A WASP application shall be able to setup a phone call connection using the 3G Platform via the WASP platform.",
+  "new_text": "A WASP application shall be able to setup a phone call connection and a video chat connection using the 3G Platform via the WASP platform.",
+  "change_type": "modify",
+  "annotation_note": "Adds video chat to the phone-call requirement R26.",
+  "Impact Set": [
+   "R22",
+   "R26"
+  ]
+ },
+ {
+  "Id": "C2",
+  "Change Rational": "The platform must be able to store POI and service profiles. Remove service profile functionality.",
+  "target_requirement": "R67",
+  "old_text": "The platform must be able to store POI and service profiles.",
+  "new_text": "The platform must be able to store POI profiles.",
+  "change_type": "delete",
+  "annotation_note": "Removes the 'service profile' part of R67 (rationale: 'Remove service profile functionality').",
+  "Impact Set": [
+   "R2",
+   "R5",
+   "R18",
+   "R48",
+   "R64",
+   "R65",
+   "R66",
+   "R67",
+   "R70"
+  ]
+ },
+ {
+  "Id": "C3",
+  "Change Rational": "The WASP platform MUST be able to show the location of users on a map by marking them with a circle.",
+  "target_requirement": "R42",
+  "old_text": "The WASP platform must be able to show the location of users on a map.",
+  "new_text": "The WASP platform must be able to show the location of users on a map by marking them with a circle.",
+  "change_type": "modify",
+  "annotation_note": "Adds 'marking them with a circle' to R42.",
+  "Impact Set": [
+   "R42"
+  ]
+ },
+ {
+  "Id": "C4",
+  "Change Rational": "The WASP platform SHOULD be possible to determine the location of touristic attractions. Deviate from the calculated route to visit an attraction.",
+  "target_requirement": "R51",
+  "old_text": "The WASP platform should be possible to determine the location of touristic attractions close to a calculated route.",
+  "new_text": "The WASP platform should be possible to determine the location of touristic attractions.",
+  "change_type": "modify",
+  "annotation_note": "Drops 'close to a calculated route' from R51 (user may deviate from the route).",
+  "Impact Set": [
+   "R51"
+  ]
+ },
+ {
+  "Id": "C5",
+  "Change Rational": "Point of interest (POI) functionality is removed.",
+  "target_requirement": "R16",
+  "old_text": "The WASP platform shall provide functionality to find points of interest that match the user's explicit need and obey the restrictions following from the user's profile and current context.",
+  "new_text": "",
+  "change_type": "delete",
+  "annotation_note": "Whole POI feature removed; the main POI requirement R16 is deleted entirely.",
+  "Impact Set": [
+   "R16",
+   "R17",
+   "R43",
+   "R44",
+   "R48",
+   "R51",
+   "R64",
+   "R65",
+   "R67"
+  ]
+ },
+ {
+  "Id": "C6",
+  "Change Rational": "When changes are discovered in the status of a user's buddy, the WASP platform must sent out notifications according to the alerts set by the user (see also REQ_NOT_006). Remove functionality to track the location of users.",
+  "target_requirement": "R25",
+  "old_text": "When changes are discovered in the status and/or location of a user's buddy, the WASP platform must sent out notifications according to the alerts set by the user (see also REQ_NOT_006).",
+  "new_text": "When changes are discovered in the status of a user's buddy, the WASP platform must sent out notifications according to the alerts set by the user (see also REQ_NOT_006).",
+  "change_type": "delete",
+  "annotation_note": "Removes 'and/or location' from R25 (rationale: remove location tracking). This change was MISSING from the old changes.json.",
+  "Impact Set": [
+   "R25"
+  ]
+ }
+]

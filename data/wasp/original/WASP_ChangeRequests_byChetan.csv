@@ -1,0 +1,7 @@
+﻿_id,text
+C1,A WASP application shall be able to setup a phone call connection and a video chat connection using the 3G Platform via the WASP platform. Add video call and chat functionality.
+C2,The platform must be able to store POI and service profiles. Remove service profile functionality.
+C3,The WASP platform MUST be  able to  show the  location of users on  a map  by  marking them with a circle.
+C4,The WASP platform SHOULD  be possible  to determine  the location of touristic attractions. Deviate from the calculated route to visit an attraction.
+C5,Point of interest (POI) functionality is removed.
+C6,"When changes are discovered in the status of a user's buddy, the WASP platform must sent out notifications according to the alerts set by the user (see also REQ_NOT_006). Remove functionality to track the location of users."
